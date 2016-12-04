@@ -1,0 +1,48 @@
+.button {
+    display:inline-block;
+    border-radius: 3px;
+    transition: .25s ease;
+    &:hover{
+        text-decoration:none;
+    }
+
+    //variants
+    &.-yellow {
+        background: @brand-yellow;
+        color: @brand-gray-darker;
+        &:hover {
+            background: @brand-red;
+            color: #fff;
+        }
+    } // yellow
+    &.-red {
+        background: @brand-red;
+        color: #fff;
+        &:hover {
+            background: #fff;
+            color: @brand-red;
+        }
+    } // red
+    &.-red-disabled {
+        cursor: default;
+        background: @brand-red;
+        color: #fff;
+    }
+    &.-gray {
+        background: @brand-gray-lighter;
+        color: #fff;
+        &:hover {
+            background: @brand-red;
+            color: #fff;
+        }
+    }
+    &.-block {
+        display:block;
+        width: 100%;
+        padding: 17px 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+}

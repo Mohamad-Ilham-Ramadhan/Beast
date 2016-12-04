@@ -1,0 +1,49 @@
+.hero {
+    height: ~"calc(100vh - 200px)";
+    text-align:center;
+    h1 {
+        color: #000;
+    }
+    .vparent {
+        display:table;
+        height:100%;
+        width:100%;
+        .vcenter {
+            width:100%;
+            display:table-cell;
+            vertical-align: middle;
+            background: url('../img/hero.png') no-repeat;
+            background-size: cover;
+            background-position:center;
+        }
+    }
+    .button {
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        font-size: 0.98em;
+        margin-top:25px;
+        padding: 20px 35px;
+    }
+
+    // variants
+    &.-no-img {
+        height: ~"calc(100vh - 355px)";
+        .vcenter {
+            background: @brand-gray-bg-soft;
+        }
+        h1, h2 {
+            color: @brand-red;
+            margin: 0;
+        }
+    }
+    &.-no-img-bg-is-white {
+        height: ~"calc(100vh - 355px)";
+        .vcenter {
+            background: #fff;
+        }
+        h1, h2 {
+            color: @brand-red;
+        }
+    }
+} // End of Hero

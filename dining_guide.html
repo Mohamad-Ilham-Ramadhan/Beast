@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/app.min.css">
+    <title>Project-B</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar-top navbar navbar-inverse">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li><span class="date">30 APRIL - 21 MAY 2017</span></li>
+                    <li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                            WELLINGTON
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Wellington</a></li>
+                            <li><a href="">Auckland</a></li>
+                            <li><a href="">Rest of NZ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about_us.html">ABOUT US</a></li>
+                    <li><a href="contact_us.html">CONTACT US</a></li>
+                    <li><a href="" data-toggle="modal" data-target="#modal-login">PERFORMERS HUB</a></li>
+                    <li class="search"><a  href=""><span><i class="fa fa-search"></i></span></a></li>
+                    <li class="calendar"><a  href=""><span><i class="fa fa-calendar-o"></i></span></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar-bottom navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="" class="navbar-brand"><img src="public/img/logo.png" alt=""></a>
+                </div>
+                <ul class="list-social pull-right">
+                    <li class="list-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-item"><a href=""><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-item"><a href=""><i class="fa fa-youtube"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li><a href="news_feed.html">NEWS FEED</a></li>
+                    <li><a href="">CALENDAR</a></li>
+                    <li><a href="dining_guide.html">DINING GUIDE</a></li>
+                    <li><a href=""><span><i class="fa fa-heart-o"></i></span> SHORTLIST</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="modal-login" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-inner">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">PRODUCER HUB LOGIN</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" class="form-login">
+                            <input class="form-control" type="email" placeholder="Email Address">
+                            <input class="form-control" type="password" placeholder="Password">
+                            <input class="button -yellow" type="submit" value="LOGIN">
+                        </form>
+                        <div class="note">
+                            <a href="">Forgotter your password?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="" class="register button -red">Don't have account yet? <strong>Register for one here</strong></a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- modal login -->
+
+    <main class="main">
+        <div class="hero -no-img">
+            <div class="vparent">
+                <div class="vcenter">
+                    <h2 class="h1">DINING GUIDE</h2>
+                </div>
+            </div>
+        </div> <!-- Hero -->
+
+        <div class="content-page-dining_guide">
+            <div class="container">
+                <div class="filter clearfix">
+                    <a href="" class="button -red-disabled">View all</a>
+                    <a href="" class="button -gray">Auckland</a>
+                    <a href="" class="button -gray">Wellington</a>
+                    <div class="dropdown dropdown-filter">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">A-Z <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="">A-Z</a></li>
+                            <li><a href="">Z-A</a></li>
+                        </ul>
+                    </div>
+                </div> <!-- End of filter -->
+
+                <div class="row no-gutter wrapper-card">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a href="">
+                                <div class="card-img" style="background-image: url('public/img/dining-guide/andy\'s-burger-bar.jpeg')"></div>
+                                <div class="card-content">
+                                    <div class="meta">AUCKLAND</div>
+                                    <div class="title">ANDY'S BURGER BAR</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card"><a href="">
+                                <div class="card-img" style="background-image: url('public/img/dining-guide/bellota.JPG')"></div>
+                                <div class="card-content">
+                                    <div class="meta">AUCKLAND</div>
+                                    <div class="title">BELLOTA</div>
+                                </div>
+                            </a></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card"><a href="">
+                                <div class="card-img" style="background-image: url('public/img/dining-guide/besos-latinos.jpg')"></div>
+                                <div class="card-content">
+                                    <div class="meta">AUCKLAND</div>
+                                    <div class="title">BESOS LATINOS</div>
+                                </div>
+                            </a></div>
+                    </div>
+                </div><!-- row no gutter -->
+            </div>
+        </div>
+    </main> <!-- End of main -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="newsletter">
+                        <h3>Stay informed.</h3>
+                        <p>Sign up to our newsletter and stay-up-to-date with all the latest from the Comedy Festival.</p>
+                        <form action="" class="form-newsletter">
+                            <div class="row">
+                                <div class="col-md-5 plr5">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control newsletter-email" placeholder="Enter your email address">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 plr5">
+                                    <div class="form-group">
+                                        <select class="form-control newsletter-select" name="">
+                                            <option value="Auckland">Auckland</option>
+                                            <option value="Wellington">Wellington</option>
+                                            <option value="Christchurch">Christchurch</option>
+                                            <option value="Northland">Northland</option>
+                                            <option value="Waikato">Waikato</option>
+                                            <option value="Bay Of Plenty">Bay Of Plenty</option>
+                                            <option value="Gisbourne">Gisbourne</option>
+                                            <option value="Taranaki">Taranaki</option>
+                                            <option value="Hawkes Bay">Hawkes Bay</option>
+                                            <option value="Manawatu">Manawatu</option>
+                                            <option value="Tasman">Tasman</option>
+                                            <option value="Marlborough">Marlborough</option>
+                                            <option value="Westcoast">Westcoast</option>
+                                            <option value="Otago">Otago</option>
+                                            <option value="Southland">Southland</option>
+                                            <option value="Outside New Zealand">Outside New Zealand</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 plr5">
+                                    <div class="form-group">
+                                        <input class="button -yellow" type="submit" name="name" value="GO">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-offset-1 footer-links">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>FESTIVAL</h4>
+                            <ul class="list-unstyled">
+                                <li class="list-item"><a href="">Venues</a></li>
+                                <li class="list-item"><a href="">Dining Guide</a></li>
+                                <li class="list-item"><a href="">Request a Programme</a></li>
+                                <li class="list-item"><a href="">Deaf Friendly Commedy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>ABOUT US</h4>
+                            <ul class="list-unstyled">
+                                <li class="list-item"><a href="">The festival</a></li>
+                                <li class="list-item"><a href="">The trust</a></li>
+                                <li class="list-item"><a href="">Our Initiatives</a></li>
+                                <li class="list-item"><a href="">Support Us</a></li>
+                                <li class="list-item"><a href="">Work With Us</a></li>
+                                <li class="list-item"><a href="">Our Sponsor</a></li>
+                                <li class="list-item"><a href="">The Team</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>SUPPORT</h4>
+                            <ul class="list-unstyled">
+                                <li class="list-item"><a href="">Apply to Perform</a></li>
+                                <li class="list-item"><a href="">Performers Hub Login</a></li>
+                                <li class="list-item"><a href="">Media Enquiries</a></li>
+                                <li class="list-item"><a href="">How to buy tickets?</a></li>
+                                <li class="list-item"><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <ul class="list-unstyled">
+                    <li class="list-item">COPYRIGHT &copy; 2016 NEW ZEALAND COMEDY TRUST</li>
+                    <li class="list-item"><a href="">Terms & Conditions</a></li>
+                    <li class="list-item"><a href="">Privacy Policy</a></li>
+                    <li class="list-item pull-right"><a href=""><span><i class="fa fa-optin-monster"></i></span> Solution by Little Giant</a></li>
+                </ul>
+            </div>
+        </div> <!-- container -->
+    </footer>
+
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+</body>
+</html>
